@@ -30,7 +30,7 @@
     }
   },
   "lint-staged": {
-    "./src/**/*.{js,ts}": [
+    "src/**/*.{js,ts}": [
       "yarn lint-fix"
     ]
   }
