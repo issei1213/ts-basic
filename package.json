@@ -31,7 +31,7 @@
   },
   "lint-staged": {
     "src/**/*.{js, ts}": [
-      "yarn run lint-fix"
+      "yarn lint-fix"
     ]
   },
   "dependencies": {}
