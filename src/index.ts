@@ -26,7 +26,6 @@
 // const sum = sumProductsPrice(100, 200, 599, 344);
 // console.log("Function parameters sample 5:", sum);
 
-
 // 05.オブジェクトの型定義
 // import objectSample from "./object/object";
 // import typeAliasSample from "./object/alias"
@@ -34,7 +33,13 @@
 // typeAliasSample()
 
 // 06.配列とタプルの型定義
-import arraySample from './array/array';
+// import arraySample from './array/array';
 // import tupleSample from './array/tuple'
-arraySample()
+// arraySample()
 // tupleSample()
+
+// 07.ジェネリック型とポリモーフィズム
+import genericsBasicSample from './generics/basic';
+import genericsAdvancedSample from "./generics/advanced"
+genericsBasicSample();
+genericsAdvancedSample();

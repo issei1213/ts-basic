@@ -1,5 +1,5 @@
 export default function objectSample() {
-  const a: object = {
+  const a = {
     name: 'issei',
     age: 28,
   };
