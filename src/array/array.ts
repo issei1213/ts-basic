@@ -2,7 +2,7 @@ import { isUserSignedIn } from 'function/parameters';
 
 export default function arraySample(): void {
   // シンプルな配列の型定義
-  const colors: String[] = ['red', 'blue'];
+  const colors: string[] = ['red', 'blue'];
   colors.push('yellow');
   // colors.push(124);
 

@@ -33,5 +33,8 @@
     "src/**/*.{js,ts}": [
       "yarn lint-fix"
     ]
+  },
+  "dependencies": {
+    "ts-node": "^9.1.1"
   }
 }

@@ -44,14 +44,14 @@ export default function objectSample() {
 
   // インデックスシグネチャ
   const capitals: {
-    [countryName: string]: string
+    [countryName: string]: string;
   } = {
-    Japan: "Tokyo",
-    Korea: "Seoul"
-  }
+    Japan: 'Tokyo',
+    Korea: 'Seoul',
+  };
 
-  capitals.Chine = "Beijing"
-  capitals.Canada = "Ottawa"
+  capitals.Chine = 'Beijing';
+  capitals.Canada = 'Ottawa';
 
   console.log('Object object sample4: ', capitals);
 }
